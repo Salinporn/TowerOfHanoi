@@ -30,4 +30,4 @@ class Pole(object):
         self.toppos -= 1
         disk = self.stack.pop()
         disk.cleardisk()
-        
+        return disk
